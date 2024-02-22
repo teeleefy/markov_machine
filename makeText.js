@@ -40,4 +40,5 @@ const readFile = (type, path) => {
     console.error(`Unknown method: ${type}. Please pass in "file" or "url" as first parameter. Then pass in appropriate path. For example: makeText.js file eggs.txt or makeText.js url http://www.gutenberg.org/files/11/11-0.txt.`)
 }
 }
+
 readFile(process.argv[2], process.argv[3]);

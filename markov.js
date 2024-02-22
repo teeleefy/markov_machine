@@ -94,7 +94,5 @@ function random(array){
 // let mm = new MarkovMachine(input);
 // console.log(mm.makeText())
 
-module.exports = {
-  MarkovMachine: MarkovMachine,
-};
+module.exports = { MarkovMachine , random , containsUppercase };
 
